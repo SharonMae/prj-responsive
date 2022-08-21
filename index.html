@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wella</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Ubuntu&display=swap" rel="stylesheet"> 
+    
+    <!--PLUGIN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <!--HEADER-->
+    <div class="banner">
+    <span>
+    <a href="emailto:"><i class="fa fa-envelope"></i> duransharonmae@gmail.com</a>
+    <a href="tel:"><i class="fa fa-phone"></i> +39 388-884-0422</a>
+    </span>
+    <span>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-youtube"></i></a>
+    </span>
+    </div>
+    <header>
+    <!--NAVIGATION-->
+    <div class="topnav" id="myTopnav">
+    <a href="#" id="logo"> <img src="logo.png" ></a>
+    <a href="#contact" class="animate">Other</a>
+    <a href="#" class="animate">About</a>
+    <a href="#" class="animate">Portfolio</a>
+    <div class="dropdown">
+    <button class="dropbtn animate">Services 
+    <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="#">Panelle e crocchè</a>
+    <a href="#">Stigghiola</a>
+    <a href="#">Pani câ meusa</a>
+    </div>
+    </div> 
+    <a href="#about" class="animate">Home</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    </header>
+    
+    <div id="navbar">
+    <a href="#contact" class="animate">Other</a>
+    <a href="#" class="animate">About</a>
+    <a href="#" class="animate">Portfolio</a>
+    <div class="dropdown">
+    <button class="dropbtn animate">Services 
+    <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="#">Panelle e crocchè</a>
+    <a href="#">Stigghiola</a>
+    <a href="#">Pani câ meusa</a>
+    </div>
+    </div> 
+    <a href="#about" class="animate">Home</a>
+    </div>
+    
+    
+    
+    
+    
+    <!--CAROUSEL-->
+    <div class="content-width">
+    <div class="slideshow">
+    <!-- Slideshow Items -->
+    <div class="slideshow-items">
+    <div class="item">
+    <div class="item-image-container">
+    <img class="item-image" src="background-2.png" />
+    </div>
+    <!-- Staggered Header Elements -->
+    <div class="item-header">
+    <span class="vertical-part"><b>Always be yourself, express yourself, have faith in yourself</b></span>
+    </div>
+    <!-- Staggered Description Elements -->
+    <div class="item-description">
+    <span class="vertical-part">
+    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b> 
+    </span>  
+    </div>
+    </div>
+    <div class="item">
+    <div class="item-image-container">
+    <img class="item-image" src="background-1.png" />
+    </div>
+    <!-- Staggered Header Elements -->
+    <div class="item-header">
+    <span class="vertical-part"><b>Innovation, evolution, revolution, progress</b></span>
+    </div>
+    <!-- Staggered Description Elements -->
+    <div class="item-description">
+    <span class="vertical-part">
+    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</b>
+    </span>
+    </div>
+    </div>
+    <div class="item">
+    <div class="item-image-container">
+    <img class="item-image" src="background-3.png" />
+    </div>
+    <!-- Staggered Header Elements -->
+    <div class="item-header">
+    <span class="vertical-part"><b>Hi, I'm a Jr. Front-End Software Engineer</b></span>
+    </div>
+    <!-- Staggered Description Elements -->
+    <div class="item-description">
+    <span class="vertical-part">
+    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</b>
+    </span>
+    <section>
+    <a href="#section1" class="btn1">LEARN MORE</a> <a href="#section3" class="btn2">OUR SERVICES</a>
+    </section>
+    </div>
+    </div>
+    </div>
+    <div class="controls">
+    <ul>
+    <li class="control" data-index="0"></li>
+    <li class="control" data-index="1"></li>
+    <li class="control" data-index="2"></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+    <!--SECTION1-->
+    <section class="section1" id="section1">
+    <div class="left_section">
+    <h1 class="title">Software Engineer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    </div>
+    </section>
+    
+    
+    
+    
+    
+    <!--SECTION2-->
+    <section class="section2">
+    <table>
+    <tr>
+    <td>
+    <em>ABOUT US</em>
+    <h1 class="title">We design future-oriented technological architectures, to support the growth of e-commerce and the improvement of the customer experience, selecting the best solutions and integrating them efficiently</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <a href="#" class="btn1">READ MORE <i class="fa fa-arrow-right"></i></a>
+    </td>
+    <td>
+    
+    <div class="w3-container">
+    
+    <div id="London" class="w3-container w3-border city animate">
+    <h2 style="color: white;">Lorem ipsum dolor sit amet</h2>
+    <ul>
+    <li>Lorem ipsum</li>
+    <li>Lorem ipsum</li>
+    <li>Lorem ipsum</li>
+    <li>And Other</li>
+    </ul>
+    </div>
+    
+    <div id="Paris" class="w3-container w3-border city animate" style="display:none">
+    <h2 style="color: white;">Lorem ipsum:</h2>
+    <ul>
+    <li>Lorem ipsum</li>
+    <li>Lorem ipsum</li>
+    <li>Lorem ipsum</li>
+    </ul>
+    <ul>
+    <li>Lorem ipsum</li>
+    <li>Lorem ipsum</li>
+    <li>Lorem ipsum</li>
+    </ul>
+    </div>
+    <div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')"></button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')"></button>
+    </div>
+    </div>
+    
+    </td>
+    </tr>
+    </table>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--SECTION4-->
+    <section class="section4">
+    <table>
+    <tr>
+    <td>
+    
+    </td>
+    <td>
+    <section>
+    <em>Tech Solutions</em>
+    <h1 class="title">Management of technological ecosystems</h1>
+    <h5 class="sub-title">Tech</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt:</p>
+    <ul>
+    <li>Business Strategy</li>
+    <li>Artificial Intelligence</li>
+    </ul>
+    <ul>
+    <li>Finance Consulting</li>
+    <li>Data & Analytics</li>
+    </ul>
+    <a href="#" style="float:right;" class=" inline-photo3 show-on-scroll3">Read More...</a>
+    </section>
+    <section>
+    <h5 class="sub-title">CyberSecurity</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a href="#" style="float:right;" class=" inline-photo3 show-on-scroll3">Read More...</a>
+    </section>
+    <section>
+    <h5 class="sub-title">Metaverse</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <a href="#" style="float:right;" class=" inline-photo3 show-on-scroll3">Read More...</a>
+    </section>
+    </td>
+    </tr>
+    </table>
+    </section>
+    
+    
+    
+    
+    
+    <!--SECTION5-->
+    <section class="section5">
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400px" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3138.649733245646!2d13.35438271531612!3d38.12508247969715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e58d16b275d3%3A0xdb095ec731496162!2sTeatro%20Politeama%20Garibaldi!5e0!3m2!1sit!2sit!4v1660473621570!5m2!1sit!2sit" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:100%;}</style><a href="https://www.embedgooglemap.net">google map code for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}</style></div></div>
+    
+    <section class="company_details inline-photo3 show-on-scroll3">
+    <h5 class="title">Bienvenidos</h5>
+    <p>Via Filippo Turati, 2, 90139 Palermo</p>
+    <p><a href="emailto:"><i class="fa fa-envelope"></i> duransharonmae@gmail.com</a></p>
+    <p><a href="tel:"><i class="fa fa-phone"></i> +39 388-884-0422</a></p>
+    </section>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--FOOTER-->
+    <footer>
+    <div class="footer">
+    <div class="row">
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-youtube"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+    
+    <div class="row">
+    <ul>
+    <li><a href="#">Contact us</a></li>
+    <li><a href="#">Our Services</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+    <li><a href="#">Career</a></li>
+    </ul>
+    </div>
+    
+    
+    </footer>
+    
+    
+    
+    <!--JAVASCRIPT-->
+    <script src="main.js"></script>
+
+</body>
+</html>
